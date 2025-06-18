@@ -1,59 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Magic Book RPG</title>
   <style>
-    body { font-family: sans-serif; margin: 0; background: #111; color: #fff; }
-    header { background: #f25c54; padding: 1rem; text-align: center; }
-    nav a { margin: 0 1rem; color: #fff; text-decoration: none; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 2rem; }
-    section { margin-bottom: 2rem; }
-    .glow { text-shadow: 0 0 10px #f25c54; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      padding: 2rem;
+    }
+    h1, h2, h3 {
+      color: #4fc3f7;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .dev-log-entry {
+      background-color: #1e1e1e;
+      border-left: 4px solid #4fc3f7;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1 class="glow">Magic Book RPG</h1>
-    <nav>
-      <a href="#story">Story</a>
-      <a href="#progress">Progress</a>
-      <a href="#features">Features</a>
-      <a href="#devlog">Dev Log</a>
-    </nav>
-  </header>
-  <main>
-    <section id="story">
-      <h2>📜 Story</h2>
-      <p>Long ago, magical books were hidden across the world. Each book holds the power of an element. You are a young mage discovering these books and unlocking their secrets...</p>
-    </section>
+  <h1>Magic Book RPG</h1>
 
-    <section id="progress">
-      <h2>✅ Development Progress</h2>
-      <ul>
-        <li>✔️ Fire Book block created</li>
-        <li>🔲 Fireball shooting mechanic</li>
-        <li>🔲 UI for book selection</li>
-        <li>🔲 Quests and story mode</li>
-      </ul>
-    </section>
+  <div class="section">
+    <h2>📜 Story</h2>
+    <p>An RPG where magical books grant elemental powers. Players explore the world, unlock books, and master their powers. Each book has its own path, abilities, and secrets.</p>
+  </div>
 
-    <section id="features">
-      <h2>🧩 Game Features</h2>
-      <ul>
-        <li>🔥 Elemental books (Fire, Water, Air, etc.)</li>
-        <li>🗺️ Open world RPG exploration</li>
-        <li>🧙 Quests and lore discovery</li>
-        <li>🎒 Inventory of collected books</li>
-      </ul>
-    </section>
+  <div class="section">
+    <h2>✅ Progress</h2>
+    <ul>
+      <li>Basic world setup in Roblox Studio</li>
+      <li>Fire Book object created</li>
+      <li>Water Book object created</li>
+      <li>Basic water attack implemented</li>
+      <li>Key press scripting added</li>
+    </ul>
+  </div>
 
-    <section id="devlog">
-      <h2>🛠️ Dev Log</h2>
-      <p><strong>June 18:</strong> Started the Fire Book block. Planned game layout and website.</p>
-    </section>
-  </main>
+  <div class="section">
+    <h2>🧩 Features</h2>
+    <ul>
+      <li>Magic books with unique elemental powers</li>
+      <li>Exploration-based RPG world</li>
+      <li>Custom attacks for each book</li>
+      <li>Damage, splash effects, and keybinding system</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Dev Log</h2>
+    <div class="dev-log-entry">
+      <strong>June 18, 2025</strong><br>
+      Massive progress today! Built out the Fire and Water books, including scripted abilities in Roblox Studio. Learned about Tools, scripting with Lua, handling input with the 'F' key, and making projectiles with splash effects and damage. It’s been a wild ride — time for a well-earned break!
+    </div>
+  </div>
+
 </body>
 </html>
