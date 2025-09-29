@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Tab</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #111; color: #fff; }
+    header { background: #f25c54; padding: 1rem; text-align: center; }
+    nav a { margin: 0 1rem; color: #fff; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 2rem; }Add commentMore actions
+    section { margin-bottom: 2rem; }
+    .glow { text-shadow: 0 0 10px #f25c54; }
+  </style>
+</head>
+<body>
+  <h1> Hello </h1>
+</body>
