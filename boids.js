@@ -156,7 +156,12 @@ function drawBoid(ctx, boid) {
   ctx.translate(boid.x, boid.y);
   ctx.rotate(angle);
   ctx.translate(-boid.x, -boid.y);
-  ctx.fillStyle = "#558cf4";
+  if (Math.random() < 0.5) {
+    ctx.fillStyle = "#558cf4";
+  }
+  else {
+    ctx.fillStyle = "#fcf403";
+  }
   ctx.beginPath();
   ctx.moveTo(boid.x, boid.y);
   ctx.lineTo(boid.x - 15, boid.y + 5);
